@@ -1,0 +1,18 @@
+      1 0.000000000    192.168.23.2          192.168.23.255        BROWSER  273    Local Master Announcement GATEWAY, Workstation, Server, Print Queue Server, Xenix Server, NT Workstation, NT Server, Master Browser, DFS server
+      2 0.000061282    192.168.23.2          192.168.23.255        BROWSER  250    Domain/Workgroup Announcement WORKGROUP, NT Workstation, Domain Enum
+      3 22.391448900   192.168.23.2          192.168.23.3          DNS      95     Standard query 0x6f6f A server.somedomain.nosuch OPT
+      4 22.391584428   192.168.23.2          192.168.23.3          DNS      95     Standard query 0x15d2 AAAA server.somedomain.nosuch OPT
+      5 22.391707165   192.168.23.2          192.168.23.3          DNS      70     Standard query 0xcaef NS <Root> OPT
+      6 22.391948847   192.168.23.3          192.168.23.2          DNS      125    Standard query response 0x6f6f A server.somedomain.nosuch A 192.168.23.3 NS server.somedomain.nosuch OPT
+      7 22.392004799   192.168.23.3          192.168.23.2          DNS      136    Standard query response 0x15d2 AAAA server.somedomain.nosuch SOA somedomain.nosuch OPT
+      8 22.392145089   192.168.23.3          192.168.23.2          DNS      1139   Standard query response 0xcaef NS <Root> NS g.root-servers.net NS d.root-servers.net NS h.root-servers.net NS i.root-servers.net NS j.root-servers.net NS c.root-servers.net NS k.root-servers.net NS b.root-servers.net NS e.root-servers.net NS a.root-servers.net NS m.root-servers.net NS f.root-servers.net NS l.root-servers.net RRSIG A 198.41.0.4 AAAA 2001:503:ba3e::2:30 A 199.9.14.201 AAAA 2001:500:200::b A 192.33.4.12 AAAA 2001:500:2::c A 199.7.91.13 AAAA 2001:500:2d::d A 192.203.230.10 AAAA 2001:500:a8::e A 192.5.5.241 AAAA 2001:500:2f::f A 192.112.36.4 AAAA 2001:500:12::d0d A 198.97.190.53 AAAA 2001:500:1::53 A 192.36.148.17 AAAA 2001:7fe::53 A 192.58.128.30 AAAA 2001:503:c27::2:30 A 193.0.14.129 AAAA 2001:7fd::1 A 199.7.83.42 AAAA 2001:500:9f::42 A 202.12.27.33 AAAA 2001:dc3::35 OPT
+      9 22.392657832   192.168.12.1          192.168.23.3          TCP      74     55266 → 80 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=4294947585 TSecr=0 WS=128
+     10 22.392844180   192.168.23.3          192.168.12.1          TCP      74     80 → 55266 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=4294944755 TSecr=4294947585 WS=64
+     11 22.393104812   192.168.12.1          192.168.23.3          TCP      66     55266 → 80 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=4294947585 TSecr=4294944755
+     12 22.393149986   192.168.12.1          192.168.23.3          HTTP     262    GET /index.html?username=rc17281&password=0a5937f3 HTTP/1.1 
+     13 22.393312722   192.168.23.3          192.168.12.1          TCP      66     80 → 55266 [ACK] Seq=1 Ack=197 Win=30080 Len=0 TSval=4294944755 TSecr=4294947585
+     14 22.396218928   192.168.23.3          192.168.12.1          HTTP     617    HTTP/1.1 200 OK  (text/html)
+     15 22.396560822   192.168.12.1          192.168.23.3          TCP      66     55266 → 80 [ACK] Seq=197 Ack=552 Win=30336 Len=0 TSval=4294947586 TSecr=4294944755
+     16 22.399328225   192.168.12.1          192.168.23.3          TCP      66     55266 → 80 [FIN, ACK] Seq=197 Ack=552 Win=30336 Len=0 TSval=4294947586 TSecr=4294944755
+     17 22.409343366   192.168.23.3          192.168.12.1          TCP      66     80 → 55266 [FIN, ACK] Seq=552 Ack=198 Win=30080 Len=0 TSval=4294944759 TSecr=4294947586
+     18 22.409634341   192.168.12.1          192.168.23.3          TCP      66     55266 → 80 [ACK] Seq=198 Ack=553 Win=30336 Len=0 TSval=4294947589 TSecr=4294944759
